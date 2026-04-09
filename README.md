@@ -1,0 +1,1 @@
+copepipelineにてGitHubのファイルを更新するとECSが自動更新される
