@@ -1,0 +1,10 @@
+Resources:
+  MyVPC2:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: "10.0.8.0/21"
+      EnableDnsSupport: true
+      EnableDnsHostnames: true
+      Tags:
+        - Key: Name
+          Value: "MyVPCfromCF"
